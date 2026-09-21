@@ -156,7 +156,7 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 <div align="center">
 
-<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake-dark.svg"/>
+<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake.gif"/>
 
 </div>
 
