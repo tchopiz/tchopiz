@@ -15,12 +15,13 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Generate snake SVG
-        uses: Platane/snk/svg-only@v3
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake-dark.svg?palette=github-dark&color_snake=8B5CF6&color_dots=161B22,5B21B6,7C3AED,A78BFA,C4B5FD
+            dist/snake.gif?palette=github-dark&color_snake=8B5CF6&color_dots=161B22,5B21B6,7C3AED,A78BFA,C4B5FD
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
