@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:2D1B4E,60:5B21B6,100:8B5CF6&height=250&section=header&text=GILD&fontSize=105&fontColor=FFFFFF&fontAlignY=36&desc=reverse%20engineering%20%C2%B7%20cybersecurity%20%C2%B7%20anti-bot%20research%20%C2%B7%20full-stack%20dev&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:2D1B4E,60:5B21B6,100:8B5CF6&height=250&section=header&text=GILD&fontSize=105&fontColor=FFFFFF&fontAlignY=36&desc=reverse%20engineering%20%C2%B7%20cybersecurity%20%C2%B7%20anti-bot%20%C2%B7%20dev&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=940&height=60&lines=I+take+systems+apart+to+understand+them+completely.;Binaries+%C2%B7+APKs+%C2%B7+protocols+%C2%B7+protections+%E2%80%94+rebuilt+readable.;JS+%26+Python+deobfuscation+%C2%B7+challenge+internals.;Full-request+automation%2C+studied+from+the+metal+up.;Go+on+the+back%2C+React+on+the+front+%E2%80%94+I+build+too.)](https://t.me/gild_eng)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=3000&pause=800&color=A78BFA&center=true&vCenter=true&width=940&height=60&lines=If+it's+packed%2C+I+want+to+see+what's+inside.;JS+and+Python+deobfuscation+is+my+thing.;I+read+disassembly+until+it+makes+sense.;Go+in+the+back%2C+React+in+the+front.)](https://t.me/gild_eng)
 
 <a href="https://t.me/gild_eng"><img src="https://img.shields.io/badge/Telegram-gild__eng-8B5CF6?style=for-the-badge&logo=telegram&logoColor=white&labelColor=0D1117"/></a>
 <a href="https://github.com/tchopiz"><img src="https://img.shields.io/badge/GitHub-tchopiz-8B5CF6?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/></a>
@@ -12,65 +12,57 @@
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## &nbsp; ▍About
+## &nbsp; ▍Who I am
 
-**GILD** — self-taught engineer across reverse engineering, security research,
-and full-stack development.
+I'm GILD. Mostly self-taught, and most of my time goes into taking things apart to figure out how they work.
 
-I live between source and binary. When something is packed, obfuscated, or
-undocumented — a native binary, an Android app, a minified JS bundle, a network
-protocol, a protection layer — I want to know *exactly* how it works. I pull it
-apart, trace it, and rebuild the logic until it reads clean.
+Binaries, Android apps, some minified JS bundle nobody was ever supposed to read, a protocol, whatever protection somebody bolted on top — if it's closed up, that's the part I find interesting. I'll sit with it, trace it, and keep going until the logic is readable again.
 
-Deobfuscation of JavaScript and Python is home turf. So is the internals of
-modern challenge and automation systems — full-request, from the metal up.
+JavaScript and Python deobfuscation is where I'm most comfortable. I also spend a lot of time on how modern challenge and bot-detection stuff actually works under the hood, at the request level.
 
-I don't stop at breaking. I build: **Go** backends, **React** frontends,
-end-to-end tooling that comes straight out of the teardown.
-
-*Everything, understood from the metal up.*
+And I build things, not only break them. Backends in Go, frontends in React, plus whatever small tooling falls out of a teardown when I need it.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## &nbsp; ▍What I Do
+## &nbsp; ▍What I spend time on
 
 <div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🔬 Reverse Engineering**
-- Native binary analysis (static + dynamic)
-- Android APK teardown & unpacking
-- JavaScript & Python deobfuscation
-- Rebuilding logic from disassembly
+**🔬 Reverse engineering**
+- Native binaries, static and dynamic
+- Pulling APKs apart
+- JS / Python deobfuscation
+- Getting logic back out of disassembly
 
 </td>
 <td width="50%" valign="top">
 
-**🛡️ Security Research**
-- Vulnerability discovery & analysis
-- Protocol & traffic inspection
-- Anti-bot & challenge internals
-- Full-request automation research
+**🛡️ Security**
+- Finding and digging into bugs
+- Watching traffic, reading protocols
+- How anti-bot / challenges work
+- Request-level automation
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**🐛 Debugging & Analysis**
-- `.exe` tracing, patching, instrumentation
-- Root-cause bug hunting
-- Memory & runtime analysis
+**🐛 Debugging**
+- Tracing and patching .exe files
+- Chasing the actual cause, not the symptom
+- Memory and runtime poking
 
 </td>
 <td width="50%" valign="top">
 
-**⚙️ Full-Stack Development**
-- Go backends & high-throughput services
-- React frontends
-- Low-level tooling & automation
+**⚙️ Building**
+- Go services that take load
+- React on the front
+- Little tools and automation
 
 </td>
 </tr>
@@ -79,9 +71,9 @@ end-to-end tooling that comes straight out of the teardown.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
-## &nbsp; ▍Arsenal
+## &nbsp; ▍Stuff I use
 
-**Disassemblers & Decompilers**
+**Disassemblers / decompilers**
 
 ![IDA Pro](https://img.shields.io/badge/IDA_Pro-8B0000?style=flat-square&logoColor=white&labelColor=0D1117)
 ![Ghidra](https://img.shields.io/badge/Ghidra-FF6B00?style=flat-square&logo=ghidra&logoColor=white&labelColor=0D1117)
@@ -90,7 +82,7 @@ end-to-end tooling that comes straight out of the teardown.
 ![JADX](https://img.shields.io/badge/JADX-2C3E50?style=flat-square&logoColor=white&labelColor=0D1117)
 ![apktool](https://img.shields.io/badge/apktool-006400?style=flat-square&logoColor=white&labelColor=0D1117)
 
-**Debuggers & Instrumentation**
+**Debuggers**
 
 ![x64dbg](https://img.shields.io/badge/x64dbg-2E8B57?style=flat-square&logoColor=white&labelColor=0D1117)
 ![GDB](https://img.shields.io/badge/GDB-A42E2B?style=flat-square&logo=gnu&logoColor=white&labelColor=0D1117)
@@ -99,14 +91,14 @@ end-to-end tooling that comes straight out of the teardown.
 ![dnSpy](https://img.shields.io/badge/dnSpy-512BD4?style=flat-square&logoColor=white&labelColor=0D1117)
 ![Xposed](https://img.shields.io/badge/Xposed-3C1361?style=flat-square&logoColor=white&labelColor=0D1117)
 
-**JS / Web Analysis**
+**JS / web**
 
 ![Chrome DevTools](https://img.shields.io/badge/DevTools-4285F4?style=flat-square&logo=googlechrome&logoColor=white&labelColor=0D1117)
 ![Babel](https://img.shields.io/badge/Babel_AST-F9DC3E?style=flat-square&logo=babel&logoColor=black&labelColor=0D1117)
 ![AST Explorer](https://img.shields.io/badge/AST_Explorer-333333?style=flat-square&logoColor=white&labelColor=0D1117)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0D1117)
 
-**Security & Network**
+**Network / security**
 
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white&labelColor=0D1117)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white&labelColor=0D1117)
@@ -114,7 +106,7 @@ end-to-end tooling that comes straight out of the teardown.
 ![Fiddler](https://img.shields.io/badge/Fiddler-1E90FF?style=flat-square&logoColor=white&labelColor=0D1117)
 ![nmap](https://img.shields.io/badge/nmap-4682B4?style=flat-square&logoColor=white&labelColor=0D1117)
 
-**Analysis Tooling**
+**Other tools**
 
 ![PE-bear](https://img.shields.io/badge/PE--bear-8B4513?style=flat-square&logoColor=white&labelColor=0D1117)
 ![Detect It Easy](https://img.shields.io/badge/DIE-333333?style=flat-square&logoColor=white&labelColor=0D1117)
@@ -134,7 +126,7 @@ end-to-end tooling that comes straight out of the teardown.
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white&labelColor=0D1117)
 ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white&labelColor=0D1117)
 
-**Frameworks & Environment**
+**Rest of the stack**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=0D1117)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0D1117)
@@ -156,9 +148,11 @@ end-to-end tooling that comes straight out of the teardown.
 <img width="49%" alt="isocalendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.isocalendar.svg"/>
 <img width="49%" alt="habits" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.habits.svg"/>
 
+<img width="98%" alt="achievements" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.achievements.svg"/>
+
 </div>
 
-## &nbsp; ▍Contribution Snake
+## &nbsp; ▍Contribution snake
 
 <div align="center">
 
