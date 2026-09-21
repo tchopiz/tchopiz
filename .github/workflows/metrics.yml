@@ -13,8 +13,9 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     steps:
+      # ---- CARTE PRINCIPALE : dense, tout dedans ----
       - name: Core metrics
         uses: lowlighter/metrics@latest
         with:
@@ -24,12 +25,33 @@ jobs:
           template: classic
           base: "header, activity, community, repositories, metadata"
           config_timezone: Africa/Algiers
+          config_order: base.header, base.activity, base.community, languages, activity, notable, stargazers, base.repositories, base.metadata
+
+          # langages détaillés + lignes de code
           plugin_languages: yes
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 12
+          plugin_languages_sections: most-used, recently-used
           plugin_languages_colors: 8B5CF6
           plugin_lines: yes
+          plugin_lines_sections: base
 
+          # activité récente (commits, PRs, issues, reviews)
+          plugin_activity: yes
+          plugin_activity_limit: 6
+          plugin_activity_days: 14
+          plugin_activity_filter: all
+
+          # repos notables où t'as contribué
+          plugin_notable: yes
+          plugin_notable_types: commit
+          plugin_notable_repositories: yes
+
+          # ceux qui t'ont star
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+
+      # ---- ISOCALENDAR : la vague 3D des contributions ----
       - name: Isocalendar
         uses: lowlighter/metrics@latest
         with:
@@ -41,6 +63,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+      # ---- HABITS : quand et comment tu codes ----
       - name: Habits
         uses: lowlighter/metrics@latest
         with:
@@ -52,4 +75,20 @@ jobs:
           plugin_habits: yes
           plugin_habits_from: 200
           plugin_habits_days: 14
+          plugin_habits_facts: yes
           plugin_habits_charts: yes
+
+      # ---- ACHIEVEMENTS : badges de progression ----
+      - name: Achievements
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: tchopiz
+          base: ""
+          config_timezone: Africa/Algiers
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: compact
+          plugin_achievements_limit: 0
