@@ -26,25 +26,30 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 ## &nbsp; ▍What I spend time on
 
-<div align="center">
 <table>
 <tr>
 <td width="50%" valign="top">
 
 **🔬 Reverse engineering**
-- Native binaries, static and dynamic
-- Pulling APKs apart
-- JS / Python deobfuscation
-- Getting logic back out of disassembly
+
+<ul>
+<li>Native binaries, static and dynamic</li>
+<li>Pulling APKs apart</li>
+<li>JS / Python deobfuscation</li>
+<li>Getting logic back out of disassembly</li>
+</ul>
 
 </td>
 <td width="50%" valign="top">
 
 **🛡️ Security**
-- Finding and digging into bugs
-- Watching traffic, reading protocols
-- How anti-bot / challenges work
-- Request-level automation
+
+<ul>
+<li>Finding and digging into bugs</li>
+<li>Watching traffic, reading protocols</li>
+<li>How anti-bot / challenges work</li>
+<li>Request-level automation</li>
+</ul>
 
 </td>
 </tr>
@@ -52,22 +57,27 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 <td width="50%" valign="top">
 
 **🐛 Debugging**
-- Tracing and patching .exe files
-- Chasing the actual cause, not the symptom
-- Memory and runtime poking
+
+<ul>
+<li>Tracing and patching .exe files</li>
+<li>Chasing the actual cause, not the symptom</li>
+<li>Memory and runtime poking</li>
+</ul>
 
 </td>
 <td width="50%" valign="top">
 
 **⚙️ Building**
-- Go services that take load
-- React on the front
-- Little tools and automation
+
+<ul>
+<li>Go services that take load</li>
+<li>React on the front</li>
+<li>Little tools and automation</li>
+</ul>
 
 </td>
 </tr>
 </table>
-</div>
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -153,7 +163,7 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 <div align="center">
 
-<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake.svg"/>
+<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake-green.svg"/>
 
 </div>
 
