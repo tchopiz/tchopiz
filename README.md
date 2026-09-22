@@ -145,10 +145,7 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 <img width="98%" alt="metrics" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.svg"/>
 
-<img width="49%" alt="isocalendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.isocalendar.svg"/>
-<img width="49%" alt="habits" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.habits.svg"/>
-
-<img width="98%" alt="achievements" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.achievements.svg"/>
+<img width="98%" alt="isocalendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.isocalendar.svg"/>
 
 </div>
 
@@ -156,7 +153,7 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 <div align="center">
 
-<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake.gif"/>
+<img width="98%" alt="snake" src="https://raw.githubusercontent.com/tchopiz/tchopiz/output/snake.svg"/>
 
 </div>
 
