@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
+      # ============ MAIN CARD ============
       - name: Core metrics
         uses: lowlighter/metrics@v3.34
         with:
@@ -24,15 +25,23 @@ jobs:
           template: classic
           base: "header, activity, community, repositories, metadata"
           config_timezone: Africa/Algiers
+          config_order: base.header, base.activity, base.community, languages, lines, topics, base.repositories, base.metadata
+
           plugin_languages: yes
           plugin_languages_threshold: 0%
           plugin_languages_limit: 8
           plugin_languages_details: bytes-size, percentage
           plugin_languages_ignored: "html, css, tex, jupyter notebook, dockerfile, makefile"
           plugin_languages_colors: 8B5CF6
-          plugin_lines: yes
-          repositories_affiliations: owner, collaborator
 
+          plugin_lines: yes
+          plugin_lines_sections: base
+
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_topics_limit: 12
+
+      # ============ ISOCALENDAR ============
       - name: Isocalendar
         uses: lowlighter/metrics@v3.34
         with:
@@ -43,3 +52,15 @@ jobs:
           config_timezone: Africa/Algiers
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # ============ CALENDAR (full year heatmap) ============
+      - name: Calendar
+        uses: lowlighter/metrics@v3.34
+        with:
+          filename: metrics.plugin.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: tchopiz
+          base: ""
+          config_timezone: Africa/Algiers
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
