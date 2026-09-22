@@ -14,13 +14,13 @@
 
 ## &nbsp; ▍Who I am
 
-I'm GILD. Mostly self-taught, and most of my time goes into taking things apart to figure out how they work.
+I'm GILD. Mostly self-taught. I spend most of my time pulling things apart to see how they actually work.
 
-Binaries, Android apps, some minified JS bundle nobody was ever supposed to read, a protocol, whatever protection somebody bolted on top — if it's closed up, that's the part I find interesting. I'll sit with it, trace it, and keep going until the logic is readable again.
+Could be a native binary, an Android app, some minified JS bundle nobody was meant to read, a protocol, whatever protection got bolted on. If it's closed up, that's the part I want to get into. I'll sit with it, trace it, and keep at it until the logic reads clean.
 
-JavaScript and Python deobfuscation is where I'm most comfortable. I also spend a lot of time on how modern challenge and bot-detection stuff actually works under the hood, at the request level.
+JS and Python deobfuscation is what I'm best at. I also dig into how modern challenge and bot-detection systems work at the request level.
 
-And I build things, not only break them. Backends in Go, frontends in React, plus whatever small tooling falls out of a teardown when I need it.
+I build stuff too, not just take it apart. Go for backends, React on the front, and whatever small tools I end up needing along the way.
 
 <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"/>
 
@@ -155,7 +155,8 @@ And I build things, not only break them. Backends in Go, frontends in React, plu
 
 <img width="98%" alt="metrics" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.svg"/>
 
-<img width="98%" alt="isocalendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.isocalendar.svg"/>
+<img width="49%" alt="isocalendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.isocalendar.svg"/>
+<img width="49%" alt="calendar" src="https://raw.githubusercontent.com/tchopiz/tchopiz/main/metrics.plugin.calendar.svg"/>
 
 </div>
 
